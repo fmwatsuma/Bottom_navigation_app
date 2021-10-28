@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 class Messages extends StatelessWidget {
@@ -5,6 +7,10 @@ class Messages extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text('Settings Page'));
+    return Center(child: Text('Settings Page',style: TextStyle(fontSize: 24),),
+    
+    
+    
+    );
   }
 }
